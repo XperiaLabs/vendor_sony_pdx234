@@ -130,7 +130,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pdx234/proprietary/vendor/bin/time_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/time_daemon \
     vendor/sony/pdx234/proprietary/vendor/bin/trusteduilistener:$(TARGET_COPY_OUT_VENDOR)/bin/trusteduilistener \
     vendor/sony/pdx234/proprietary/vendor/bin/vendor.dpmd:$(TARGET_COPY_OUT_VENDOR)/bin/vendor.dpmd \
-    vendor/sony/pdx234/proprietary/vendor/bin/vendor.qti.qspmhal@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/vendor.qti.qspmhal@1.0-service \
     vendor/sony/pdx234/proprietary/vendor/bin/vendor_modprobe.sh:$(TARGET_COPY_OUT_VENDOR)/bin/vendor_modprobe.sh \
     vendor/sony/pdx234/proprietary/vendor/bin/vppservice:$(TARGET_COPY_OUT_VENDOR)/bin/vppservice \
     vendor/sony/pdx234/proprietary/vendor/bin/wifidisplayhalservice:$(TARGET_COPY_OUT_VENDOR)/bin/wifidisplayhalservice \
@@ -432,7 +431,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pdx234/proprietary/vendor/etc/eva/facedetection/model3.dat:$(TARGET_COPY_OUT_VENDOR)/etc/eva/facedetection/model3.dat \
     vendor/sony/pdx234/proprietary/vendor/etc/gnss_antenna_info.conf:$(TARGET_COPY_OUT_VENDOR)/etc/gnss_antenna_info.conf \
     vendor/sony/pdx234/proprietary/vendor/etc/gpfspath_oem_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gpfspath_oem_config.xml \
-    vendor/sony/pdx234/proprietary/vendor/etc/gps.conf:$(TARGET_COPY_OUT_VENDOR)/etc/gps.conf \
     vendor/sony/pdx234/proprietary/vendor/etc/idd.fstab:$(TARGET_COPY_OUT_VENDOR)/etc/idd.fstab \
     vendor/sony/pdx234/proprietary/vendor/etc/iddd_user.conf:$(TARGET_COPY_OUT_VENDOR)/etc/iddd_user.conf \
     vendor/sony/pdx234/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service-rbs.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service-rbs.rc \
@@ -500,7 +498,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pdx234/proprietary/vendor/etc/init/vendor.qti.hardware.trustedui@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.trustedui@1.0-service-qti.rc \
     vendor/sony/pdx234/proprietary/vendor/etc/init/vendor.qti.media.c2@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.media.c2@1.0-service.rc \
     vendor/sony/pdx234/proprietary/vendor/etc/init/vendor.qti.media.c2audio@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.media.c2audio@1.0-service.rc \
-    vendor/sony/pdx234/proprietary/vendor/etc/init/vendor.qti.qspmhal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.qspmhal@1.0-service.rc \
     vendor/sony/pdx234/proprietary/vendor/etc/init/vendor.qti.rmt_storage.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.rmt_storage.rc \
     vendor/sony/pdx234/proprietary/vendor/etc/init/vendor.qti.secure_element@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.secure_element@1.2-service.rc \
     vendor/sony/pdx234/proprietary/vendor/etc/init/vendor.qti.tftp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.tftp.rc \
@@ -574,7 +571,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pdx234/proprietary/vendor/etc/seccomp_policy/qsap_qapeservice.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qsap_qapeservice.policy \
     vendor/sony/pdx234/proprietary/vendor/etc/seccomp_policy/qsap_sensors.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qsap_sensors.policy \
     vendor/sony/pdx234/proprietary/vendor/etc/seccomp_policy/qsap_voiceui.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qsap_voiceui.policy \
-    vendor/sony/pdx234/proprietary/vendor/etc/seccomp_policy/qspm.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qspm.policy \
     vendor/sony/pdx234/proprietary/vendor/etc/seccomp_policy/qti-systemd.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qti-systemd.policy \
     vendor/sony/pdx234/proprietary/vendor/etc/seccomp_policy/qwesd@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qwesd@2.0.policy \
     vendor/sony/pdx234/proprietary/vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/vendor.qti.hardware.dsp.policy \
@@ -1221,7 +1217,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pdx234/proprietary/vendor/lib64/libcdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcdsprpc.so \
     vendor/sony/pdx234/proprietary/vendor/lib64/libchifeature2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libchifeature2.so \
     vendor/sony/pdx234/proprietary/vendor/lib64/libchilog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libchilog.so \
-    vendor/sony/pdx234/proprietary/vendor/lib64/libchrome.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libchrome.so \
     vendor/sony/pdx234/proprietary/vendor/lib64/libclstc_algorithm_adapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libclstc_algorithm_adapter.so \
     vendor/sony/pdx234/proprietary/vendor/lib64/libclstc_gcp_adapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libclstc_gcp_adapter.so \
     vendor/sony/pdx234/proprietary/vendor/lib64/libclstc_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libclstc_hdr.so \
@@ -1264,7 +1259,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pdx234/proprietary/vendor/lib64/libfastcvdsp_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfastcvdsp_stub.so \
     vendor/sony/pdx234/proprietary/vendor/lib64/libfastcvopt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfastcvopt.so \
     vendor/sony/pdx234/proprietary/vendor/lib64/libfmpal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfmpal.so \
-    vendor/sony/pdx234/proprietary/vendor/lib64/libgame_enhance.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgame_enhance.so \
     vendor/sony/pdx234/proprietary/vendor/lib64/libgarden.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgarden.so \
     vendor/sony/pdx234/proprietary/vendor/lib64/libgarden_haltests_e2e.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgarden_haltests_e2e.so \
     vendor/sony/pdx234/proprietary/vendor/lib64/libgdtap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgdtap.so \
@@ -1282,7 +1276,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pdx234/proprietary/vendor/lib64/libhdr_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdr_stub.so \
     vendor/sony/pdx234/proprietary/vendor/lib64/libhdr_tm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdr_tm.so \
     vendor/sony/pdx234/proprietary/vendor/lib64/libhfp_pal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhfp_pal.so \
-    vendor/sony/pdx234/proprietary/vendor/lib64/libhidparser.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhidparser.so \
     vendor/sony/pdx234/proprietary/vendor/lib64/libhistogram.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhistogram.so \
     vendor/sony/pdx234/proprietary/vendor/lib64/libidd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libidd.so \
     vendor/sony/pdx234/proprietary/vendor/lib64/libidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libidl.so \
@@ -1303,7 +1296,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pdx234/proprietary/vendor/lib64/liblbs_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblbs_core.so \
     vendor/sony/pdx234/proprietary/vendor/lib64/liblights-core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblights-core.so \
     vendor/sony/pdx234/proprietary/vendor/lib64/liblistensoundmodel2vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblistensoundmodel2vendor.so \
-    vendor/sony/pdx234/proprietary/vendor/lib64/liblmthermallistner.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblmthermallistner.so \
     vendor/sony/pdx234/proprietary/vendor/lib64/libloadalgo_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloadalgo_stub.so \
     vendor/sony/pdx234/proprietary/vendor/lib64/libloc_api_v02.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloc_api_v02.so \
     vendor/sony/pdx234/proprietary/vendor/lib64/libloc_api_wds.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloc_api_wds.so \
@@ -1639,15 +1631,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pdx234/proprietary/vendor/lib64/se_nq_extn_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/se_nq_extn_client.so \
     vendor/sony/pdx234/proprietary/vendor/lib64/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.ssc.so \
     vendor/sony/pdx234/proprietary/vendor/lib64/soundfx/libasphere.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libasphere.so \
-    vendor/sony/pdx234/proprietary/vendor/lib64/soundfx/libdlbvol.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libdlbvol.so \
-    vendor/sony/pdx234/proprietary/vendor/lib64/soundfx/libqcompostprocbundle.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcompostprocbundle.so \
-    vendor/sony/pdx234/proprietary/vendor/lib64/soundfx/libqcomvisualizer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcomvisualizer.so \
-    vendor/sony/pdx234/proprietary/vendor/lib64/soundfx/libqcomvoiceprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcomvoiceprocessing.so \
     vendor/sony/pdx234/proprietary/vendor/lib64/soundfx/libquasar.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libquasar.so \
     vendor/sony/pdx234/proprietary/vendor/lib64/soundfx/libshoebox.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libshoebox.so \
-    vendor/sony/pdx234/proprietary/vendor/lib64/soundfx/libswgamedap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libswgamedap.so \
-    vendor/sony/pdx234/proprietary/vendor/lib64/soundfx/libswvqe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libswvqe.so \
-    vendor/sony/pdx234/proprietary/vendor/lib64/soundfx/libvolumelistener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libvolumelistener.so \
     vendor/sony/pdx234/proprietary/vendor/lib64/vendor.display.color@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.0.so \
     vendor/sony/pdx234/proprietary/vendor/lib64/vendor.display.color@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.1.so \
     vendor/sony/pdx234/proprietary/vendor/lib64/vendor.display.color@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.2.so \
@@ -1814,8 +1799,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pdx234/proprietary/vendor/lib64/vendor.qti.qesdhal@1.3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.qesdhal@1.3-impl.so \
     vendor/sony/pdx234/proprietary/vendor/lib64/vendor.qti.qesdhal@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.qesdhal@1.3.so \
     vendor/sony/pdx234/proprietary/vendor/lib64/vendor.qti.qesdsys-V3-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.qesdsys-V3-ndk.so \
-    vendor/sony/pdx234/proprietary/vendor/lib64/vendor.qti.qspmhal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.qspmhal@1.0-impl.so \
-    vendor/sony/pdx234/proprietary/vendor/lib64/vendor.qti.qspmhal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.qspmhal@1.0.so \
     vendor/sony/pdx234/proprietary/vendor/lib64/android.hardware.light-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.light-V1-ndk_platform.so \
     vendor/sony/pdx234/proprietary/vendor/lib64/vendor.semc.hardware.extlight-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.semc.hardware.extlight-V1-ndk_platform.so \
     vendor/sony/pdx234/proprietary/vendor/lib64/vendor.semc.hardware.fingerprint-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.semc.hardware.fingerprint-V1-ndk_platform.so \

@@ -191,7 +191,6 @@ android_app_import {
 	name: "EuiccGoogle",
 	owner: "sony",
 	apk: "proprietary/product/priv-app/EuiccGoogle/EuiccGoogle.apk",
-	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -204,7 +203,6 @@ android_app_import {
 	name: "EuiccMemoryReset",
 	owner: "sony",
 	apk: "proprietary/product/priv-app/EuiccMemoryReset/EuiccMemoryReset.apk",
-	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,

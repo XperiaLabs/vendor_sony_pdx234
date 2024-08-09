@@ -202,7 +202,7 @@ android_app_import {
 	name: "EuiccGoogle",
 	owner: "sony",
 	apk: "proprietary/product/priv-app/EuiccGoogle/EuiccGoogle.apk",
-	certificate: "platform",
+	presigned: true,
 	dex_preopt: {
 		enabled: false,
 	},
@@ -214,7 +214,7 @@ android_app_import {
 	name: "EuiccMemoryReset",
 	owner: "sony",
 	apk: "proprietary/product/priv-app/EuiccMemoryReset/EuiccMemoryReset.apk",
-	certificate: "platform",
+	presigned: true,
 	dex_preopt: {
 		enabled: false,
 	},
